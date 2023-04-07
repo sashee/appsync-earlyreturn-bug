@@ -1,0 +1,9 @@
+type Object {
+	value: String!
+}
+type Query {
+	getObject(skip: Boolean!): Object
+}
+schema {
+	query: Query
+}
